@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#content-mobile{
+    display: none;
+  }
 @media (max-width: 500px) {
   body{
     height: 100vh;
@@ -14,6 +16,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     background-size: 800% 800%;
+  }
+  #content-mobile{
+    display: block;
   }
 }
 body{
