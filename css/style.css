@@ -6,12 +6,22 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 500px) {
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-size: 800% 800%;
+  }
+}
 body{
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: top;
+  align-items: center;
   background-size: 800% 800%;
 }
 
